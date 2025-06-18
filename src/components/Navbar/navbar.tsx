@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import logo from '../../public/logo-dark.svg'
 import Link from 'next/link'
-import { RiArrowDropDownLine } from "react-icons/ri";
+import { servicesDropdown } from '../../data/dropdownItems';
+import DropdownMenu from '../dropdown';
 export default function Navbar (){
     return(
         <div className="bg-white p-2 ">
@@ -17,20 +18,7 @@ export default function Navbar (){
                     <Link href={'/'}>Pricing</Link>
                     <Link href={'/'}>How It Works</Link>
                     <Link href={'/'}>Services</Link>
-                   
-                    <div className='relative group'>
-                        <p className='flex cursor-pointer items-center'>
-                            <span>Dropdown</span>
-                            <RiArrowDropDownLine className='w-7 h-10'/>
-                        </p>
-                        <div id='dropdown' className=' absolute  hidden right-2 top-10 w-auto flex-col gap-2 pr-16 pl-4 py-4 items-start bg-white text-gray-700 shadow-md group-hover:flex'>
-                            <a className=' hover:bg-slate-200 w-full px-5 py-5'>Multipages</a>
-                            <a>Services</a>
-                            <a>Pricing</a>
-                            <a>Dropstart</a>
-
-                        </div>
-                    </div>
+                    <DropdownMenu label="Dropdown" items={servicesDropdown} />
                     <Link href={'/'}>Contact</Link>
                 </div>
                 </div>

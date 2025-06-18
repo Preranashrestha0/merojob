@@ -47,16 +47,16 @@ const HomePage = () => {
                 </div>
             </div>
         </div>
-        <div className=''>
+        <div className='relative w-full max-w-6xl flex flex-col md:flex-row items-center justify-center'>
             <Image
                     src={heroimage}
                     alt="Picture of the author"
-                    className=' rounded-2xl m-5 w-4/5 relative -z-10'
+                    className=' rounded-2xl w-full md:w-[450px] h-auto object-cover'
                     />
                 <Image
                     src={cardexpenes}
                     alt="Picture of the author"
-                    className=' rounded-2xl m-5 w-2/6 absolute z-20'
+                    className=' absolute bottom-[-40px] left-4 md:left-[100px] w-2/6 h-1/2 rounded-2xl'
                     />
         </div>
     </div>
