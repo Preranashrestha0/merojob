@@ -7,7 +7,7 @@ import { dropdown } from '@/app/data/dropdownItems';
 import { Button } from '../ui/button';
 export default function Navbar (){
     return(
-        <div className="bg-white p-2 ">
+        <div className="bg-white p-2 fixed top-0 left-0 right-0 text-white  z-10">
             <nav className="flex flex-row justify-between items-center shadow-sm p-2">
                 <div className='flex flex-row gap-12'>
                     <Image 
