@@ -13,7 +13,7 @@ export default function Navbar (){
                     src={logo}
                     alt='logo'
                     />
-                <div className=' flex-row gap-5 justify-center items-center text-gray-600 md:flex hidden sm:ml-10 ml-0'>
+                <div className=' flex-row gap-5 justify-center items-center text-gray-600 lg:flex hidden sm:ml-10 ml-0'>
                     <Link href={'/'}>Home</Link>
                     <Link href={'/'}>About</Link>
                     <Link href={'/'}>Pricing</Link>

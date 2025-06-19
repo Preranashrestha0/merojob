@@ -1,4 +1,3 @@
-import { ShieldCheck, LineChart, TrendingUp } from "lucide-react";
 import Card from "./servicesCardGrid";
 import digitalPayment from "../../public/digitalpayments.svg";
 import finance from "../../public/finance.svg";
