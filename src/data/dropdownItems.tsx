@@ -1,4 +1,4 @@
-import { DropdownItem } from '../components/dropdown';
+import { DropdownItem } from '../components/dropdownMenu';
 
 export const servicesDropdown: DropdownItem[] = [
   { label: 'Multipages', href: '/services/web' },

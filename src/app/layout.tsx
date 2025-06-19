@@ -1,5 +1,4 @@
 import "./globals.css"
-import Navbar from "@/components/Navbar/navbar"
 
 
 export default function RootLayout({
@@ -11,6 +10,7 @@ export default function RootLayout({
   return(
     <html>
       <body className="bg-white">
+  
         {children}
       </body>
     </html>

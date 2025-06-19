@@ -24,7 +24,7 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ label, items }) => {
       onMouseEnter={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
     >
-      <button className="flex items-center cursor-pointer text-gray-800">
+      <button className="flex items-center cursor-pointer text-gray-600">
         <span>{label}</span>
         <RiArrowDropDownLine className="w-7 h-7" />
       </button>
