@@ -1,6 +1,11 @@
 import { ShieldCheck, LineChart, TrendingUp } from "lucide-react";
 import Card from "./servicesCardGrid";
-import digitalpayment from "../../public/digitalpayments.svg";
+import digitalPayment from "../../public/digitalpayments.svg";
+import finance from "../../public/finance.svg";
+import lending from "../../public/lending.svg";
+import investment from "../../public/investment.svg";
+import cryptocurrency from "../../public/cryptocurrency.svg"
+import insurtech from "../../public/insurtech.svg"
 import Image from "next/image";
 
 export const cardData = [
@@ -8,25 +13,37 @@ export const cardData = [
     title: "Digital Payments",
     description:
       "Seamless and secure transactions through various digital platforms, enabling quick and convenient payments for businesses and consumers alike.",
-    icon: <Image src={digitalpayment} alt="digital" />,
+    image: <Image src={digitalPayment} alt="digital" className="stroke-green-800"/>,
   },
   {
     title: "Personal Finance Management",
     description:
-      "Add your personal or business details to tailor the platform to your specific needs.",
-    icon: <ShieldCheck size={32} />,
+      "Seamless and secure transactions through various digital platforms, enabling quick and convenient payments for businesses and consumers alike.",
+    image: <Image src={finance} alt="personal finance" className="stroke-green-700"/>,
   },
   {
-    title: "Explore Features",
+    title: "Online Lending",
     description:
-      "Access your dashboard for a summary of your finances: balances, recent transactions, and insights.",
-    icon: <LineChart size={32} />,
+      "Fast and accessible lending services that provide personal and business loans through online platforms, simplifying the borrowing process.",
+    image: <Image src={lending} alt="lending" className="stroke-green-700"/>,
   },
   {
-    title: "Invest and Grow",
+    title: "Investment Platforms",
     description:
-      "Discover a variety of investment opportunities tailored to your financial goals.",
-    icon: <TrendingUp size={32} />,
+      "User-friendly platforms that allow individuals to invest in stocks, bonds, and other assets with minimal barriers, making investment accessible to all.",
+    image: <Image src={investment} alt="investment" className="stroke-green-700"/>,
+  },
+  {
+    title: "Cryptocurrency Trading",
+    description:
+      "Services that facilitate the buying, selling, and trading of cryptocurrencies, offering users a gateway to the digital currency market.",
+    image: <Image src={cryptocurrency} alt="cryptocurrency" className="stroke-green-700"/>,
+  },
+  {
+    title: "Insurtech Solutions",
+    description:
+      "Innovative insurance services that leverage technology to offer personalized policies, faster claims processing, and enhanced customer experiences.",
+      image: <Image src={insurtech} alt="insurtech solutions" className="stroke-green-700"/>
   },
 ];
 export default function CardGrid() {
@@ -38,7 +55,7 @@ export default function CardGrid() {
             key={index}
             title={card.title}
             description={card.description}
-            icon={card.icon}
+            image={card.image}
           />
         ))}
         

@@ -18,7 +18,7 @@ const Faqs = () => {
 </p>
         </div>
         <div>
-            <Accordion type="single" collapsible className="w-full max-w-2xl mx-auto p-4 gap-4">
+            <Accordion type="single" collapsible className="w-full max-w-xl mx-auto p-4 gap-4">
                 {accordionData.map((item) => (
                     <AccordionItem key={item.id} value={item.id}>
                     <AccordionTrigger>{item.title}</AccordionTrigger>

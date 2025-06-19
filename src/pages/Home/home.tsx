@@ -29,17 +29,17 @@ const HomePage = () => {
                      <Image
                     src={airbnb_logo}
                     alt="Picture of the author"
-                    className=' rounded-2xl w-24'
+                    className='w-24'
                     />
                      <Image
                     src={ibm_logo}
                     alt="Picture of the author"
-                    className=' rounded-2xl w-24'
+                    className=' w-16'
                     />
                      <Image
                     src={google_logo}
                     alt="Picture of the author"
-                    className=' rounded-2xl w-24'
+                    className='w-24'
                     />
                 </div>
             </div>

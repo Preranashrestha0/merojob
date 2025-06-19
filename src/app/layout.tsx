@@ -9,7 +9,8 @@ export default function RootLayout({
 ) {
   return(
     <html>
-      <body className="bg-white">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <body className="bg-white flex flex-col justify-center items-center">
   
         {children}
       </body>

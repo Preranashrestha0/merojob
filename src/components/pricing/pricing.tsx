@@ -1,10 +1,11 @@
 import React from 'react'
+import { Button } from '../ui/button'
 
 const Pricing = () => {
   return (
     <div>
         <div>
-            <h1>Personal</h1>
+            <Button variant={'destructive'}>Pricing</Button>
             <p></p>
         </div>
     </div>
