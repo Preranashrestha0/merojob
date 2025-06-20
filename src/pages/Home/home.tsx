@@ -12,11 +12,11 @@ import { Button } from '@/components/ui/button'
 
 const HomePage = () => {
   return (
-    <div className='grid gap-30 md:grid-cols-2 mt-10 mb-40'>
-        <div className='grid grid-rows-4 gap-4 h-fit md:px-10'>
+    <div className='grid gap-30 lg:grid-cols-2 mt-10 mb-40'>
+        <div className='grid grid-rows-4 gap-4 h-fit lg:px-10'>
             <div className='flex flex-col gap-5 items-start row-span-2  '>
                <Button variant={'destructive'}>INNOVATIVE FINTECH SOLUTIONS</Button>
-                 <p className='font-medium text-3xl  md:text-5xl text-black'>Secure, Efficient, and User-Friendly Financial Services</p>
+                 <p className='font-medium text-3xl  lg:text-5xl text-black'>Secure, Efficient, and User-Friendly Financial Services</p>
                  <p className='text-gray-700'>Experience the future of finance with our secure, efficient, and user-friendly financial services.</p>
             </div>
             <div className='grid grid-cols-2 sm:grid-cols-3 items-start gap-2 h-fit my-auto'>

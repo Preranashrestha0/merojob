@@ -9,8 +9,7 @@ export default function Footer() {
   return (
     <footer className="bg-white text-gray-700 border-t">
       <div className="max-w-7xl mx-auto px-6 py-12">
-        {/* Top Newsletter Row */}
-        <div className="md:flex justify-between items-center mb-12">
+        <div className="grid md:grid-cols-4justify-between items-center mb-12">
           <div>
             <h2 className="text-xl font-semibold mb-1">Join our newsletter</h2>
             <p className="text-sm text-gray-600">

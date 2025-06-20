@@ -27,7 +27,7 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="bg-green-50 rounded-2xl p-7 md:p-16 my-12 max-w-7xl">
+    <section className="bg-green-50 rounded-2xl p-7 md:p-16 max-w-7xl">
       <div className="grid md:grid-cols-2 gap-12 items-start">
         <div>
           <h2 className="text-4xl font-semibold mb-4 text-gray-900">Why Choose us</h2>

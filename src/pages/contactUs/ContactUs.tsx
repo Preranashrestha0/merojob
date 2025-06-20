@@ -21,7 +21,7 @@ export default function ContactForm() {
           </div>
           <div>
             <p className="text-gray-500">Phone</p>
-            <p className="font-semibold text-gray-800">+(01 234 567 890)</p>
+            <p className="font-semibold text-gray-700">+(01 234 567 890)</p>
           </div>
         </div>
         <div className="flex items-start gap-4">
@@ -30,7 +30,7 @@ export default function ContactForm() {
           </div>
           <div>
             <p className="text-gray-500">Email</p>
-            <p className="font-semibold text-gray-800">info@mydomain.com</p>
+            <p className="font-semibold text-gray-700">info@mydomain.com</p>
           </div>
         </div>
         <div className="flex items-start gap-4">
@@ -39,7 +39,7 @@ export default function ContactForm() {
           </div>
           <div>
             <p className="text-gray-500">Address</p>
-            <p className="font-semibold text-gray-800">
+            <p className="font-semibold text-gray-700">
               123 Main Street Apt 4B Springfield,<br />
               IL 62701 United States
             </p>
@@ -47,7 +47,6 @@ export default function ContactForm() {
         </div>
       </div>
 
-      {/* Right: Form */}
       <form className="space-y-5">
         <div>
           <label className="block text-gray-700">Name</label>

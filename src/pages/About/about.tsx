@@ -8,8 +8,8 @@ import { Lightbulb } from 'lucide-react'
 
 const About = () => {
   return (
-    <div className=' grid grid-rows-2 md:grid-col md:grid-cols-2 gap-10 mt-10'>
-      <div className='flex flex-col gap-10 row-span-2'>
+    <div className=' grid grid-rows-2 md:grid-rows-1 md:grid-cols-2  gap-10 py-2 px-2 mt-10 '>
+      <div className='flex flex-col gap-10 md:row-span-1 row-span-2'>
         <Image
         src={about_img}
         alt="logo"
@@ -26,7 +26,7 @@ const About = () => {
           </div>
             </div>
       </div>
-      <div className='md:ml-10 ml-2 row-start-1'>
+      <div className='md:ml-10 ml-2 md:row-span-2 row-start-1'>
         <Button variant={'destructive'}>About Us</Button>
         <h4 className='lg:text-[35px] text-[26px] mt-2 font-medium mb-4'>Experience the future of finance with our secure, efficient, and user-friendly financial services</h4>
         

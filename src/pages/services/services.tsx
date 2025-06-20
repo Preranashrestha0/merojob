@@ -5,7 +5,7 @@ import React from 'react'
 const Services = () => {
   return (
     <div>
-        <div className='flex flex-col justify-center items-center '>
+        <div className='flex flex-col justify-center items-center mt-10'>
           <HeadingTag
             heading='OUR SERVICES'
             description='Empowering Financial Innovation Through Cutting-Edge Services'

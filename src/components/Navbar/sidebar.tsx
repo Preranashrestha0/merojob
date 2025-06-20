@@ -5,18 +5,18 @@ import Image from "next/image";
 import DropdownMenu from "../dropdownMenu";
 import { dropdown } from "@/app/data/dropdownItems";
 
-export default function MobileMenu({ onClose }) {
+export default function MobileMenu({  }) {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <div className="fixed inset-0 z-50 bg-white flex flex-col w-full max-w-sm shadow-lg">
+    <div className="fixed inset-0 z-50 flex bg-white flex-col w-full max-w-sm shadow-lg">
       {/* Header */}
       <div className="flex items-center justify-between px-6 py-4 border-b">
         <div className="flex items-center gap-2">
           <Image src="/logo.png" alt="Logo" width={32} height={32} />
           <span className="text-xl font-bold">Nova</span>
         </div>
-        <button onClick={onClose}>
+        <button>
           <X className="w-6 h-6 text-gray-600" />
         </button>
       </div>

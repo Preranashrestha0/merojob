@@ -14,8 +14,10 @@ import ContactForm from "@/pages/contactUs/ContactUs";
 
 export default function Home() {
   return (
-    <div className="xl:mx-28 mx-10 flex-col justify-evenly min-h-screen max-w-7xl items-center"> 
-      <Navbar/>
+    <div className="xl:px-24 px-2 w-fit"> 
+     <Navbar/>
+      <div className=" flex-col justify-evenly max-w-7xl items-center">
+       
       <HomePage/>
       <About/>
       <WhyChooseUs/>  
@@ -26,6 +28,7 @@ export default function Home() {
       <Faqs/>
       <ContactForm/>
       <Footer/>
+      </div>
     </div>
   );
 }
